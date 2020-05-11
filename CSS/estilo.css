@@ -7,7 +7,7 @@
     margin: 0;
     padding: 0; 
     color: #fff;
-    font-size: calc(5vw + 1vw);
+    font-size: 5vw;
 }
 
 .page.page-one h2{
@@ -15,6 +15,7 @@
     padding: 0; 
     margin: 0 0 30px;
     color: #fff;
+    font-size: 4vw;
 }
 
 .page.page-one a:hover{
@@ -26,10 +27,47 @@
     border: 2px solid #fff;
 }
 
+.btn{
+    border-radius: 0px;
+    padding: 10px 40px ;
+    font-size: 3vw;
+    text-decoration: none;
+    font-weight: 500;
+    text-transform: uppercase;
+    transition: 0.3s;
+}
+
+@media (max-width: 767px){
+    .page.page-one h1{
+        font-size: 20vw;
+    }
+
+    .page.page-one h2{
+        font-size: 7vw;
+    }
+
+    .btn{
+        font-size: 7vw;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+    .page.page-one h1{
+        font-size: 12vw;
+    }
+
+    .page.page-one h2{
+        font-size: 4vw;
+    }
+
+    .btn{
+        font-size: 4vw;
+    }
+}
+
 .logo{
     text-align: left;
     color: white;
-    font-size: 5vw;
     font-family: "Montserrat Subrayada";
 }
 
@@ -43,6 +81,24 @@
     .page.page-two{
         flex-direction: column-reverse;
     }
+}
+
+@media (max-width: 767px){
+    .page.page-two{
+        flex-direction: column-reverse;
+    }
+
+    .exp1{
+        margin-top: 50px;;
+    }
+
+    .imagesentado{
+        display: block;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+
 }
 
 .page.page-two h2{
@@ -122,19 +178,9 @@
     display: none;
 }
 
-@media (min-width: 1000px){
-    .imagesentado{
-        display: block;
-    }
-}
-
 .exp1 p{
     color: white;
     font-size: 18px;
-}
-
-.exp1 p + p{
-    margin-bottom: 30px;;
 }
 
 .page.page-three{
