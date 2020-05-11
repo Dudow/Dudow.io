@@ -1,0 +1,220 @@
+.page.page-one{
+    background-image: url("../assets/wpp.jpg");
+    background-size: cover;
+}
+
+.page.page-one h1{
+    margin: 0;
+    padding: 0; 
+    color: #fff;
+    font-size: calc(5vw + 1vw);
+}
+
+.page.page-one h2{
+    margin: 0;
+    padding: 0; 
+    margin: 0 0 30px;
+    color: #fff;
+}
+
+.page.page-one a:hover{
+    background: rgba(20, 122, 255, 0.3);
+}
+
+.start{
+    color: #fff;
+    border: 2px solid #fff;
+}
+
+.logo{
+    text-align: left;
+    color: white;
+    font-size: 5vw;
+    font-family: "Montserrat Subrayada";
+}
+
+.page.page-two{
+    background: linear-gradient(240deg, #03a8f4f8, #ED63FF);
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+@media (max-width: 1000px){
+    .page.page-two{
+        flex-direction: column-reverse;
+    }
+}
+
+.page.page-two h2{
+    font-size: 25px;
+    margin: 0;
+    padding: 0; 
+    margin: 0 0 100px;
+    color: #414141;
+}
+
+.login{
+    min-width: 400px;
+    width: 25vw;
+    height: 80vh;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    border-radius: 8px;
+    background: #f1f1f1f1;
+    padding: 30px;
+}
+
+.login h1{
+    margin-bottom: 40px;
+    text-align: center; 
+    color: rgb(31, 31, 31);    
+}
+
+.login h3{
+    color: rgb(58, 58, 58); 
+}
+
+.login input{
+    height: 30px;
+    width: 95%;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 50px;
+    border-width: 0px 0px 1px 0px;
+    border-color:  #e91e6283;
+    background: transparent;
+    color: rgb(112, 112, 112);    
+}
+
+.login a,
+.login p{
+    text-decoration: none;
+    text-align: center;
+}
+
+.login p{
+    margin-top: 30px;
+}
+
+.login .button{
+    width: 95%;
+    padding: 10px 90px;
+    border: 0;
+    margin-bottom: 40px;
+    border-radius: 3px;
+    color: #f1f1f1;
+    font-size: 20px;
+    margin-bottom: 15px;
+    cursor: pointer;
+    background: linear-gradient(220deg, #03a8f4f8, #e91e62cc);
+    transition: .2s;
+}
+
+.login .button:hover{
+    box-shadow: #777777 0px 0px 10px 0px;
+}
+
+.imagesentado{
+    width: 30vw;
+    display: none;
+}
+
+@media (min-width: 1000px){
+    .imagesentado{
+        display: block;
+    }
+}
+
+.exp1 p{
+    color: white;
+    font-size: 18px;
+}
+
+.exp1 p + p{
+    margin-bottom: 30px;;
+}
+
+.page.page-three{
+    background-image: url("../assets/wpp.png");;
+    justify-content: space-between;
+    flex-direction: row;
+    background-size: cover;
+}
+
+.dash{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 30vw;
+    background: linear-gradient(240deg, rgba(87, 192, 211, 0.8), rgba(116, 113, 211, 0.6));
+}
+
+.dash-logo{
+    text-align: left;
+    color: #ccc;
+    font-weight: 500;
+    font-size: 5vh;
+    margin-left: 0;
+    font-family: "Roboto";
+    margin-left: 15px;
+    transition: .3s;
+}
+
+.dash-logo:hover{
+    color: rgb(163, 163, 163);
+}
+
+.dash-logo-container{
+    display: flex;
+    align-items: center;
+    height: 7%;
+}
+
+.imagem{
+    height: 210px;
+    width: 210px;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.dash-container{
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 50px 0px 50px 0px;
+}
+
+.cards-container{
+    display: flex;
+}
+
+.cards{
+    width: 15vw;
+    height: 30vh;
+    margin: 30px;
+    padding: 1vh 1vh 4vh 1vh;
+    border-radius: 1px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transform: rotate(5deg);
+}
+
+.cards + div{
+    transform: rotate(-5deg);
+}
+
+.cards p{
+    margin-top: 5px;
+}
+
+.card-image{
+    height: 100%;
+    width: 100%;
+}
