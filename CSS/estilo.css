@@ -80,10 +80,7 @@
 @media (max-width: 767px){
     .page.page-two{
         flex-direction: column-reverse;
-    }
-
-    .exp1{
-        margin-top: 50px;;
+        justify-content: space-evenly;
     }
 
     .imagesentado{
