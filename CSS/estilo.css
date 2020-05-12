@@ -77,12 +77,6 @@
     flex-direction: row;
 }
 
-@media (max-width: 1000px){
-    .page.page-two{
-        flex-direction: column-reverse;
-    }
-}
-
 @media (max-width: 767px){
     .page.page-two{
         flex-direction: column-reverse;
@@ -93,12 +87,22 @@
     }
 
     .imagesentado{
-        display: block;
+        display: none;
+    }
+
+    .login{
+        min-width: 350px;
     }
 }
 
 @media (min-width: 768px) and (max-width: 979px) {
+    .imagesentado{
+        display: block;
+    }
 
+    .login{
+        min-width: 400px;
+    }
 }
 
 .page.page-two h2{
@@ -110,7 +114,6 @@
 }
 
 .login{
-    min-width: 400px;
     width: 25vw;
     height: 80vh;
     background: white;
@@ -175,7 +178,6 @@
 
 .imagesentado{
     width: 30vw;
-    display: none;
 }
 
 .exp1 p{
