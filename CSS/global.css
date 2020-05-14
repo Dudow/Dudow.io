@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat+Subrayada:wght@700&display=swap');
-
-*{
+* {
     margin: 0;
     padding: 0;
     outline: 0;
@@ -9,11 +8,11 @@
     scroll-behavior: smooth;
 }
 
-html{
+html {
     height: 100%;
 }
 
-body{
+body {
     width: 100vw;
     height: 100vh;
     min-height: 100vh;
@@ -25,7 +24,7 @@ body{
     overflow-x: hidden;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
@@ -33,7 +32,7 @@ textarea {
     resize: none;
 }
 
-.main-container{
+.main-container {
     width: 100vw;
     margin: 0;
     border: 0;
@@ -43,7 +42,7 @@ textarea {
     justify-content: center;
 }
 
-.page{
+.page {
     text-align: center;
     width: 100vw;
     height: 100vh;
@@ -53,10 +52,13 @@ textarea {
     justify-content: center;
 }
 
-@media (max-width: 767px){
-    .page{
+@media (max-width: 767px) {
+    .page {
         height: 110vh;
     }
 }
 
-
+.logosvg {
+    margin-left: 20px;
+    height: 3vh;
+}

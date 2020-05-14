@@ -1,0 +1,122 @@
+.page.page-two {
+    background: linear-gradient(240deg, #03a8f4f8, #ED63FF);
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+@media (max-width: 767px) {
+    .page.page-two {
+        flex-direction: column-reverse;
+        justify-content: space-evenly;
+    }
+    .imagesentado {
+        display: none;
+    }
+    .login {
+        min-width: 350px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1400px) {
+    .imagesentado {
+        display: block;
+    }
+    .login {
+        min-width: 400px;
+    }
+    .button {
+        padding: 0px;
+    }
+}
+
+.page.page-two h2 {
+    font-size: 25px;
+    margin: 0;
+    padding: 0;
+    margin: 0 0 100px;
+    color: #414141;
+}
+
+.login {
+    width: 25vw;
+    height: 80vh;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    border-radius: 8px;
+    background: #f1f1f1f1;
+    padding: 30px;
+}
+
+.login h1 {
+    margin-bottom: 40px;
+    text-align: center;
+    color: rgb(31, 31, 31);
+}
+
+.login h3 {
+    color: rgb(58, 58, 58);
+}
+
+.login input {
+    height: 30px;
+    width: 95%;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 50px;
+    border-width: 0px 0px 1px 0px;
+    border-color: #e91e6283;
+    background: transparent;
+    color: rgb(112, 112, 112);
+}
+
+.login a,
+.login p {
+    text-decoration: none;
+    text-align: center;
+}
+
+.login p {
+    margin-top: 30px;
+}
+
+.login .button {
+    width: 95%;
+    padding: 10px 90px;
+    border: 0;
+    margin-bottom: 40px;
+    border-radius: 3px;
+    color: #f1f1f1;
+    font-size: 20px;
+    margin-bottom: 15px;
+    cursor: pointer;
+    background: linear-gradient(220deg, #03a8f4f8, #ff0055, #F403A8, #03a8f4f8);
+    background-size: 400% 400%;
+    transition: .2s;
+    animation: gradient 5s ease infinite;
+}
+
+.login .button:hover {
+    box-shadow: #777777 0px 0px 10px 0px;
+}
+
+@keyframes gradient {
+    0%,
+    100% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+}
+
+.imagesentado {
+    width: 30vw;
+}
+
+.exp1 p {
+    color: white;
+    font-size: 18px;
+}
