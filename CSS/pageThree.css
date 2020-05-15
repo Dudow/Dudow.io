@@ -1,5 +1,6 @@
 .page.page-three {
-    background: linear-gradient(160deg, rgb(4, 10, 85), rgb(11, 21, 161), rgb(36, 86, 224), #FF9D51, rgb(255, 129, 32));
+    /* background: linear-gradient(145deg, rgb(11, 0, 170) 20%, #9D51FF, rgb(255, 129, 32) 90%); */
+    background: linear-gradient(-50deg, #03a8f4f8, #ED63FF);
     justify-content: space-between;
     flex-direction: row;
     background-size: cover;
@@ -10,7 +11,7 @@
     flex-direction: column;
     height: 100vh;
     width: 20vw;
-    background: linear-gradient(#F0F0F0, #d8d8d8);
+    background-color: rgba(255, 255, 255, 0.795);
 }
 
 .dash-logo:hover {
@@ -50,8 +51,8 @@
 
 .planet {
     position: absolute;
-    width: 200px;
-    height: 180px;
+    width: 180px;
+    height: 162px;
     bottom: -125vh;
     left: 17%;
     transform: rotate(15deg);
@@ -114,7 +115,6 @@
     width: 70%;
     height: 40px;
     color: #fff;
-    background-color: #9D51FF;
     border-radius: 30px;
 }
 
@@ -137,6 +137,10 @@ a[sair] {
     background-color: transparent;
     border-radius: 30px;
     margin-top: 80%;
+}
+
+a[projetos] {
+    background: linear-gradient(240deg, #03a8f4f8, #ED63FF);
 }
 
 .dash-container {
