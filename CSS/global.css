@@ -56,7 +56,7 @@ textarea {
 
 @media (max-width: 767px) {
     .page {
-        /* height: 110vh; */
+        height: 110vh;
     }
 }
 
