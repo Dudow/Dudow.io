@@ -4,6 +4,7 @@
     justify-content: space-between;
     flex-direction: row;
     background-size: cover;
+    width: 100%;
 }
 
 .dash {
@@ -12,7 +13,7 @@
     height: 100%;
     width: 20vw;
     background-color: rgba(255, 255, 255, 0.795);
-    min-width: 170px;
+    min-width: 100px;
 }
 
 .dash-logo:hover {
@@ -282,7 +283,7 @@ a[projetos] {
     .cards {
         width: 200px;
         height: 160px;
-        margin: 10px 50px 10px 50px;
+        margin: 10px 10px 10px 10px;
         transform: rotate(0deg);
     }
     .info {
@@ -295,4 +296,27 @@ a[projetos] {
     }
 }
 
-@media (min-width: 768px) and (max-width: 979px) {}
+@media (max-width: 735px) {
+    .imagem {
+        width: 80px;
+        height: 80px;
+    }
+    .perfil h2 {
+        font-size: 1.2em;
+    }
+    .perfil p {
+        font-size: 0.9em;
+    }
+    .buttons {
+        font-size: 0.95em;
+    }
+    .cards:nth-child(3) {
+        display: none;
+    }
+    .cards-container {
+        display: block;
+    }
+    .cards {
+        margin: 5px auto 20px auto;
+    }
+}
